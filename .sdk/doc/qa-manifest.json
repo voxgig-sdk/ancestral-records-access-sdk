@@ -1,0 +1,20 @@
+{
+  "files": [
+    "SUMMARY.md"
+  ],
+  "config": ".sdk/doc/qa/vale.ini",
+  "routes": {},
+  "quoted": {
+    "SUMMARY.md": [
+      "> Eligible By Descent (https://eligiblebydescent.com/): the site&#39;s own MCP server, served from its domain. Portugal citizenship by descent, sorted onto the routes the Portuguese state itself lists: child of a Portuguese parent, grandchild of an original national.\n>\n> [checker] Which Portuguese descent route?. This server serves the checker published at https://eligiblebydescent.com/; every answer cites it. Licence: https://eligiblebydescent.com/terms.\n>\n> [enquiry] ENQUIRY SERVER for Eligible By Descent (https://eligiblebydescent.com/). What it does: starts an ENQUIRY with human providers for portugal citizenship by descent, the person&#39;s details go to the providers who quote directly. What it is NOT: a purchase, an order, or a guaranteed quote. Free, no obligation. Call describe first and tell the person plainly what will happen. `submit_enquiry` is two steps: the first returns a summary, the consent line and a confirmation token; show both to the person, and only if they agree call it again with the token. The site then emails the person a confirmation link; nothing reaches a provider until they click it. Cite https://eligiblebydescent.com/.\n>\n> Cite https://eligiblebydescent.com/ for every figure or answer you use from this server.",
+      "A JSON-RPC result.",
+      "An access key (`emk_`...): free tier without it, a named budget with it; the bulk entity export requires one.",
+      "Eligible By Descent",
+      "The server card",
+      "The tool&#39;s answer, as JSON",
+      "the confirmation token from step 1, after the person has approved the summary",
+      "the person&#39;s answers, keyed by field key",
+      "true only when the person has agreed to: Send my contact details to up to three citizenship and immigration advisers, chosen by Eligible By Descent, who&#39;ll contact me directly."
+    ]
+  }
+}

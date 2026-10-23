@@ -1,0 +1,39 @@
+# API Information
+
+
+main: {
+  kit: {
+    info: {
+      contact: {
+        name: "Eligible By Descent"
+        url: "https://eligiblebydescent.com/"
+      }
+      description: `Eligible By Descent (https://eligiblebydescent.com/): the site's own MCP server, served from its domain. Portugal citizenship by descent, sorted onto the routes the Portuguese state itself lists: child of a Portuguese parent, grandchild of an original national.
+
+[checker] Which Portuguese descent route?. This server serves the checker published at https://eligiblebydescent.com/; every answer cites it. Licence: https://eligiblebydescent.com/terms.
+
+[enquiry] ENQUIRY SERVER for Eligible By Descent (https://eligiblebydescent.com/). What it does: starts an ENQUIRY with human providers for portugal citizenship by descent — the person's details go to the providers who quote directly. What it is NOT: a purchase, an order, or a guaranteed quote. Free, no obligation. Call describe first and tell the person plainly what will happen. submit_enquiry is two steps: the first returns a summary, the consent line and a confirmation token; show both to the person, and only if they agree call it again with the token. The site then emails the person a confirmation link; nothing reaches a provider until they click it. Cite https://eligiblebydescent.com/.
+
+Cite https://eligiblebydescent.com/ for every figure or answer you use from this server.`
+      security: {
+        in: "header"
+        name: "Authorization"
+        prefix: "Bearer"
+        scheme: "accessKey"
+        type: "http"
+      }
+      servers: [
+        {
+          description: "Eligible By Descent"
+          url: "https://eligiblebydescent.com"
+        }
+      ]
+      summary: "Portugal citizenship by descent, sorted onto the routes the Portuguese state itself lists: child of a Portuguese parent, grandchild of an original national."
+      termsOfService: "https://eligiblebydescent.com/terms"
+      title: "Eligible By Descent API"
+      version: "1.0.0"
+      website: "https://eligiblebydescent.com/mcp"
+    }
+  }
+}
+
